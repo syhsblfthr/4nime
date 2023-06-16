@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="./assets/logo.svg" />
+    <title>4nime</title>
+
+    <script type="text/javascript" defer src="./scripts/progress.js"></script>
+    <script type="text/javascript" defer src="./scripts/intersection.js"></script>
+    <link rel="stylesheet" tpye="text/css" href="./styles/globals.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+</head>
+<body>
+    <header>
+        <div id="header-wrapper">
+            <div id="navigation">
+                <a class="active">Home</a>
+                <a href="browse.html">Browse</a>
+                <a href="updates.html">Updates</a>
+            </div>
+        </div>
+        <div id="header-progress"></div>
+    </header>
+    <main>
+        <div class="page" id="welcome">
+            <div id="welcome-wrapper">
+                <span id="welcome-head">Welcome to <span id="welcome-head-bold">4nime</span></span>
+                <span id="welcome-small">The safe haven for anime streaming.</span>
+            </div>
+        </div>
+        <div class="page" id="offer">
+            <div class="offer" transition=".25">
+                <div class="offer-image image-container">
+                    <img src="./assets/book.svg" />
+                </div>
+                <span class="offer-title">Extensive Content Library</span>
+                <span class="offer-description">We pride ourselves with an extensive content library, offering a diverse range of movies, TV shows, documentaries, and exclusive original programming.</span>
+            </div>
+            <div class="offer" transition=".25">
+                <div class="offer-image image-container">
+                    <img src="./assets/devices.svg" />
+                </div>
+                <span class="offer-title">Connect Everywhere</span>
+                <span class="offer-description">Our streaming service prioritizes convenience and accessibility by providing a seamless multi-device experience.</span>
+            </div>
+            <div class="offer" transition=".25">
+                <div class="offer-image image-container">
+                    <img src="./assets/cloud.svg" />
+                </div>
+                <span class="offer-title">High-Quality Streaming</span>
+                <span class="offer-description">Our service supports various streaming resolutions, including HD and 4K, ensuring crisp visuals and immersive audio for an unparalleled viewing experience.</span>
+            </div>
+        </div>
+        <div class="page" id="trending" transition=".5">
+            <span>Enjoy <span id="trending-underline">every</span> anime you like without worry!</span>
+            <div id="trending-items">
+                <div class="trending-item image-container">
+                    <img class="trending-item-thumbnail" src="./assets/thumbnails/konosuba.jpg" />
+                    <div class="trending-item-text">
+                        <span class="trending-item-text-episodes">12 Episodes</span>
+                        <span class="trending-item-text-title">Kono Subarashii Sekai ni Shukufuku Wo!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page" id="continue" transition="0.5">
+            <div id="continue-wrapper">
+                <span id="continue-text">SEE WHAT PEOPLE THINK ABOUT US</span>
+                <a id="continue-button" href="browse.html">Browse our Catalog</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
